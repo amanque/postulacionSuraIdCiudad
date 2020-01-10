@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /postulacionSuraIdCiudad
+    application-display-name: postulacionSuraIdCiudad
+spring:
+  application:    name: postulacionSuraIdCiudad
+  profiles:
+    active: dev
+api:
+  url: http://api.openweathermap.org/data/2.5/forecast/daily?id=
+  key: 9de243494c0b295cca9337e1e96b00e2
+  days: 7permiso:
+  crossorigin:
+    url: http://localhost:4200
+    #url: http://172.16.7.39
